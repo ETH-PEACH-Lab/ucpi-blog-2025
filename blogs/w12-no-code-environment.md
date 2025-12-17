@@ -6,7 +6,7 @@ Two years later, Resnick et al.’s article “Scratch: Programming for All” (
 
 More than fifteen years later, millions of learners around the world use Scratch. It builds on earlier attempts like Logo, while projects like Blockly, developed around the same time, lack the social aspects that Scratch emphasizes.
 <p align=center>
-    <img src="img/scratchers.png"  width="30%" height="30%">
+    <img src="img/scratchers.png">
 </p>
 <p align=center>
     <a href="https://scratch.mit.edu/statistics" target="_blank">MIT Scratch Statistics</a>
@@ -30,7 +30,7 @@ Scratch programs respond to events like key presses, mouse clicks, or messages f
 
 The blocks in Scratch are surprisingly powerful. They include variables, lists, loops, conditionals, and even advanced blocks up to third-party AI integration <a href="https://machinelearningforkids.co.uk" target="_blank">AI integration</a>. Maloney et al. (2010) describe this as offering a low floor, wide walls, and high ceiling: easy to start, flexible in what you can build, and capable of supporting complex ideas.
 <p align=center>
-    <img src="img/scratch.png" width="50%" height="50%">
+    <img src="img/scratch.png">
 </p>
 <p align=center>
     <a href="https://scratch.mit.edu/projects/1182167528/editor/" target="_blank">Hide and Seek Minigame: Round 1</a>
@@ -65,7 +65,7 @@ Blockly’s flexibility has made it the backbone for many educational tools, inc
 
 In the Scratch ecosystem, Blockly provides the infrastructure, while Scratch offers the pedagogical vision.
 <p align=center>
-    <img src="img/blockly.png"  width="30%" height="30%">
+    <img src="img/blockly.png">
 </p>
 <p align=center>
     <a href="https://developers.google.com/blockly#build-with-blockly" target="_blank">Developer Google Blockly</a>
@@ -82,7 +82,7 @@ Recent studies on XLogoOnline (e.g., Wen et al., 2024) show that even minimalist
 
 Scratch can be seen as a descendant of Logo: where Logo focused on thinking through motion and geometry, Scratch extends those ideas into animation, storytelling, and social sharing at scale.
 <p align=center>
-    <img src="img/xlogo.png"  width="30%" height="30%">
+    <img src="img/xlogo.png">
 </p>
 <p align=center>
     <a href="https://xlogo.inf.ethz.ch/release/latest/#/mini" target="_blank">ETH Zurich XLogo</a>
