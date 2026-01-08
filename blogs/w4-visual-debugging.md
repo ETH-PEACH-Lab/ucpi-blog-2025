@@ -12,26 +12,26 @@ The importance visual debugging lies in transforming the abstract program state 
 
 There are roughly four pain points in current logging[3]：
 
-1.Logged Output Lacking a Meaningful Organization.
-The lack of a meaningful organi zation in logs creates significant challenges when programmers try to understand logs. For example, When programmers insert logging statements in a loop to track variable changes, they often need to comment or un-comment other log statements in the program, scroll back and forth in the console panel to locate all related messages, or adjust the log output format to make messages of interest more distinctive.This is because programmers find it difficult to find useful information in a large amount of log output.
+1. Logged Output Lacking a Meaningful Organization.
+   The lack of a meaningful organi zation in logs creates significant challenges when programmers try to understand logs. For example, When programmers insert logging statements in a loop to track variable changes, they often need to comment or un-comment other log statements in the program, scroll back and forth in the console panel to locate all related messages, or adjust the log output format to make messages of interest more distinctive.This is because programmers find it difficult to find useful information in a large amount of log output.
 
-2.Data Structures Lacking Informative Visualizations and Interaction.
-Modern browsers do keep arrays or JSON objects in expandable structures, but when these objects become deeply nested, the logs become unreadable. If you want to log the specific properties deep in the data structure, you need to switch back to the source code and write new log statements that can access the property. Interpreting numbers can also be challenging when it comes to position and dimensions. For example, a value like (250, 480) might represent a screen position—but how large is that position on the actual UI?
+2. Data Structures Lacking Informative Visualizations and Interaction.
+   Modern browsers do keep arrays or JSON objects in expandable structures, but when these objects become deeply nested, the logs become unreadable. If you want to log the specific properties deep in the data structure, you need to switch back to the source code and write new log statements that can access the property. Interpreting numbers can also be challenging when it comes to position and dimensions. For example, a value like (250, 480) might represent a screen position—but how large is that position on the actual UI?
 
-3.Loss of Context due to Frequent View Switching.
-Debugging often means juggling between the console, the code editor, the webpage, and the DOM inspector. Each switch breaks concentration.This kind of view-switching makes it difficult to connect logs with their source, slowing down debugging and increasing cognitive load.
+3. Loss of Context due to Frequent View Switching.
+   Debugging often means juggling between the console, the code editor, the webpage, and the DOM inspector. Each switch breaks concentration.This kind of view-switching makes it difficult to connect logs with their source, slowing down debugging and increasing cognitive load.
 
-4.Trade-offs when Crafting and Interpreting Logs. Because logging is a temporary debugging tool, most developers don’t invest much effort in making logs clean or readable.
+4. Trade-offs when Crafting and Interpreting Logs. Because logging is a temporary debugging tool, most developers don’t invest much effort in making logs clean or readable.
 
 So our goals in visual debugging are:
 
-1.Offering Meaningful and Informative Log Structures.
+1. Offering Meaningful and Informative Log Structures.
 
-2.Supporting Interactive and Visual Logging.
+2. Supporting Interactive and Visual Logging.
 
-3.Embedding Logs within Contexts.
+3. Embedding Logs within Contexts.
 
-4.Minimum Effort for the Desired Enhancements.
+4. Minimum Effort for the Desired Enhancements.
 
 ### Visual debugging tools: Log-it introduction
 
