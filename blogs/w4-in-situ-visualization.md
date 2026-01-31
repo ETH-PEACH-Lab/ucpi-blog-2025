@@ -6,13 +6,13 @@ Programming often feels like working with a blindfold on. You write code, run it
 
 This tension between *writing code* and *understanding what it actually does* is the central problem tackled by **in situ visualizations**: techniques that embed visual representations of runtime behavior directly into source code. Instead of asking programmers to jump between editors, consoles, and debuggers, these tools bring the program’s behavior to where attention already is, the code itself.
 
-In this post, I explore the idea of in situ visualizations through the lens of *Augmenting Code with In Situ Visualizations to Aid Program Understanding*, a CHI 2018 paper by Hoffswell, Satyanarayan, and Heer [\[1\]]. I’ll explain what in situ visualizations are, why they matter, how this paper structures their design space, and what this line of research suggests for the future of programming interfaces, especially in an era shaped by AI.
+In this post, I explore the idea of in situ visualizations through the lens of *Augmenting Code with In Situ Visualizations to Aid Program Understanding*, a CHI 2018 paper by Hoffswell, Satyanarayan, and Heer [1]. I’ll explain what in situ visualizations are, why they matter, how this paper structures their design space, and what this line of research suggests for the future of programming interfaces, especially in an era shaped by AI.
 
 ---
 
 ### Why Program Understanding Is So Hard
 
-Modern development environments offer powerful debugging tools, but many of them separate *program state* from *program text*. Variables appear in side panels, timelines appear in other windows, and logs scroll by elsewhere. Prior research shows that these separations come with cognitive costs: programmers spend significant time switching contexts, lose their sense of “flow,” and may remain unaware of errors for long stretches of time. More broadly, Ko et al. describe multiple “learning barriers” that arise when people try to understand and modify programs [\[5\]].
+Modern development environments offer powerful debugging tools, but many of them separate *program state* from *program text*. Variables appear in side panels, timelines appear in other windows, and logs scroll by elsewhere. Prior research shows that these separations come with cognitive costs: programmers spend significant time switching contexts, lose their sense of “flow,” and may remain unaware of errors for long stretches of time. More broadly, Ko et al. describe multiple “learning barriers” that arise when people try to understand and modify programs [5].
 
 This is particularly problematic during exploratory programming, when developers are still forming hypotheses about how their code behaves. At this stage, even small mismatches between expectation and reality can go unnoticed simply because the evidence is hidden behind extra steps.
 
@@ -75,7 +75,7 @@ This attention to placement highlights a broader lesson in user-centered interfa
 
 ### Does It Actually Help?
 
-To test their ideas, the authors conducted a user study with 18 novice Vega users. Participants answered program-understanding questions with and without in situ visualizations [\[1\]].
+To test their ideas, the authors conducted a user study with 18 novice Vega users. Participants answered program-understanding questions with and without in situ visualizations [1].
 
 The results were modest but meaningful:
 - Participants using in situ visualizations scored higher overall.
@@ -88,9 +88,9 @@ Interestingly, participants could often solve tasks even without the visualizati
 
 ### Connections to Broader Research
 
-This work builds on a long tradition of research in program visualization and learnable programming. Tools like **Online Python Tutor** visualize execution for learners [\[3\]], while systems like **Theseus** and Bret Victor’s *Learnable Programming* argue for always-on visual feedback as a foundation for understanding [\[2\]].
+This work builds on a long tradition of research in program visualization and learnable programming. Tools like **Online Python Tutor** visualize execution for learners [3], while systems like **Theseus** and Bret Victor’s *Learnable Programming* argue for always-on visual feedback as a foundation for understanding [2].
 
-What distinguishes in situ visualization is its *integration*. Instead of teaching programming through separate visual explanations, it treats runtime behavior as a first-class annotation of code, much like comments, but dynamic and data-driven. Always-on visualizations have also been explored as a way to address misconceptions while programming [\[4\]].
+What distinguishes in situ visualization is its *integration*. Instead of teaching programming through separate visual explanations, it treats runtime behavior as a first-class annotation of code, much like comments, but dynamic and data-driven. Always-on visualizations have also been explored as a way to address misconceptions while programming [4].
 
 ---
 
@@ -100,7 +100,7 @@ As AI-powered programming tools become more common, in situ visualization may be
 
 Large language models can generate code quickly, but they often obscure *why* a program behaves the way it does. Embedded visualizations could act as a counterbalance, helping programmers validate, steer, and trust AI-generated code by making its behavior visible as it runs.
 
-Recent systems like WaitGPT explore monitoring and steering conversational LLM agents in data analysis using on-the-fly code visualization [\[6\]].
+Recent systems like WaitGPT explore monitoring and steering conversational LLM agents in data analysis using on-the-fly code visualization [6].
 
 Imagine an AI assistant that not only writes code, but automatically chooses and places in situ visualizations to explain its reasoning. Or environments where visual feedback adapts based on whether the programmer is debugging, learning, or refactoring.
 
