@@ -36,7 +36,7 @@ The brackets are put onto a physical baseboard that represents the web layout ca
 
 The researchers tested TangibleGrid with 10 blind participants (six totally blind, four legally blind) through two tasks: understanding an existing layout and designing one from scratch.
 
-In task one, participants explored a pre-made layout with audio turned off, relying purely on touch. Everyone successfully identified the types, sizes, and positions of four brackets. The scissored linkage was very important as users would find one corner and trace along the structure to map out each bracket's full shape. Its a very similar principle as if you were to close your eyes and trace your fingers around an object. You can still imagine how the object's shape looks like without seeing it.
+In task one, participants explored a pre-made layout with audio turned off, relying purely on touch. Everyone successfully identified the types, sizes, and positions of four brackets. The scissored linkage was very important as users would find one corner and trace along the structure to map out each bracket's full shape. It's a very similar principle as if you were to close your eyes and trace your fingers around an object. You can still imagine how the object's shape looks like without seeing it.
 
 Task two was harder and involved creating a specific layout based on verbal descriptions. Yet again, everyone succeeded, even those with zero web design experience. Two different placement strategies emerged, leading to split opinions on the magnetic snapping feature. Participants who liked to adjust size while the bracket was snapped to the board loved the stability, while those who tried to adjust the size in mid-air found the magnets fought against them when they tried to place it down.
 
