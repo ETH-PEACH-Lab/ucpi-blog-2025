@@ -12,7 +12,7 @@ To address this problem, one would need to evaluate LLMs. However, evaluating la
 
 Released in 2023, ChainForge is an open-source visual toolkit designed to make prompt evaluation accessible for everyone. Instead of writing code to test prompts, users build visual pipelines by connecting nodes that represent different input types, multiple models and processor nodes. This allows users to systematically evaluate their hypotheses based on individual criteria [2]. Figure 1 shows an example of a pipeline that evaluates LLM performance on basic math problems across different models.
 
-![ChainForge](image.png)
+![ChainForge](w5_chain.png)
 *Figure 1:  Ground truth evaluation for math problems*
 
 ChainForge's real strength lies in its prompt template system. Instead of testing just one static prompt users can generate templates with variables. A computer science professor might create the following template: Generate a coding example about {topic} in {programming language}. The professor can then specify the topics (e.g. algorithm, data structure) and the languages (Python, Java etc.). ChainForge will then automatically generate all possible combinations and test them across the chosen model. Furthermore, it is also possible to send a prompt multiple times to the same model, in order to check the consistency of answers.
@@ -33,7 +33,7 @@ Other tools address specific evaluation aspects. ChatEval uses LLMs to evaluate 
 
 While ChainForge was designed for systematic prompt testing [2], users have discovered creative applications that extend beyond its original purpose. One interesting example is StarCharm, an LLM-powered mod creator for the farming game Stardew Valley. Traditionally modders write character dialogue, schedules and behaviours manually, which is a time-consuming process. StarCharm makes this process more accessible by letting players describe their desired character in natural language and then the system automatically creates a complete playable NPC mod [5].
 
-![alt text](image-1.png)
+![alt text](w5_chain2.png)
 *Figure 2:  System architecture of the StarCharM tool*
 
 StarCharm uses ChainForge's template system as its generation engine. The template contains variables for character traits, relationship dynamics and daily schedules. Players can describe their characters, which StarCharm uses to fill their templates. These are then sent to an LLM, afterwards the outputs are transformed into configuration files compatible with Stardew Valley's Content Patcher modding tool [5]. In other words, the same template could be used to generate a mysterious wizard or a funny merchant.
