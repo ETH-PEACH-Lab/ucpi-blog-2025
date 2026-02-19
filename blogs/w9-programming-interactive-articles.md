@@ -2,7 +2,7 @@
 
 **When reading turns into exploration and exploration turns into understanding**
 
-<img src="/assets/teaching/ucpi2025-blogs/w9-images/drawing.jpg" alt="drawing" height="300">
+<img src="w9-images/drawing.jpg" alt="drawing" height="300">
 
 Society started with storytelling. Then came paintings, then mass-printable text. Today we publish on a web that is effectively *infinitely* and *instantaneously* copyable. Accessibility is no longer the core bottleneck. Attention is. As low-signal content (AI slop) grows and our attention shrinks, we need formats that help us digest and *understand* information more deeply and more quickly.
 
@@ -40,7 +40,7 @@ This overhead can make an article high-quality and high-signal but the cost is m
 
 An attempt to reduce overhead is **Idyll**, which uses Markdown as the default authoring surface while supporting reactive components for interactivity. Conlen & Heer describe the central idea as treating interactivity as part of the document’s structure rather than an afterthought (Conlen & Heer, 2018).
 
-<img src="/assets/teaching/ucpi2025-blogs/w9-images/idyll.png" alt="idyll" height="200">
+<img src="w9-images/idyll.png" alt="idyll" height="200">
 
 In principle, this lets authors write normally and “drop in” sliders and components without building a brand new web app.
 

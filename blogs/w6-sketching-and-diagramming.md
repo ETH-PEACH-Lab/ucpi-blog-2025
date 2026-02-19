@@ -33,7 +33,7 @@ Since chisel visualize real program runtime possibly on large datasets (instead 
 - Annotation.
 This is the very last step of visualization. After selection, revisualization, and simplification, the structure of diagram has been fixed. User can label an object, draw a line between two, circle a set of object, etc.
 
-<img src="/assets/teaching/ucpi2025-blogs/chisel.png" alt="typical chisel pipeline (figure 1 in [3])" height="1000">
+<img src="chisel.png" alt="typical chisel pipeline (figure 1 in [3])" height="1000">
 
 Thanks to abstraction moves, visualization procedures now does not need to entangle with algorithm. An essential design choice of chisel is MVC (model view controller) architecture, where algorithm is model, chisel code is controller, and chisel background is view. This resulted in complete separation of logic and visualization, enabling maximum flexibility in modifying either algorithm or diagram.
 

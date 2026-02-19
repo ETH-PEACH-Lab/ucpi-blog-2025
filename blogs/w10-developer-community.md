@@ -22,7 +22,7 @@ These are just two examples of communities of practice, and there are many more.
 
 This shift is not merely anecdotal. In addition to a studie that has been conducted [3], a simple look at [Stack Overflow’s statistics](https://x.com/marcgravell/status/1922922817143660783?ref=blog.pragmaticengineer.com) is already revealing that user activity on Stack Overflow has declined so sharply that participation levels have fallen back to those observed around 2009, the year the platform was founded.
 
-<img src="/assets/teaching/ucpi2025-blogs/images/stackoverflow-users.png" alt="name of the image" height="400">
+<img src="images/stackoverflow-users.png" alt="name of the image" height="400">
 
 *Question volume has dropped to levels comparable to those at Stack Overflow's launch in 2009. Source: Stack Overflow Data Explorer (SEDE) / [Marc Gravell on X](https://x.com/marcgravell/status/1922922817143660783?ref=blog.pragmaticengineer.com)*
 

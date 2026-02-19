@@ -14,7 +14,7 @@ console.log(x + Math.sin(2*x/Math.PI) + 10.3);
 
 In a simplified JavaScript syntax, this could be parsed into the following syntax tree:
 
-<img src="/assets/teaching/ucpi2025-blogs/w5-structured-editors-img/st-1.png" alt="syntax-tree-before" height="400">
+<img src="w5-structured-editors-img/st-1.png" alt="syntax-tree-before" height="400">
 
 Now suppose we would like to factor out that second addition inside the logged term. Surely, you know how to modify the above code snippet into this one:
 
@@ -25,7 +25,7 @@ console.log(x + y);
 
 My fictional syntax tree for this code looks like this:
 
-<img src="/assets/teaching/ucpi2025-blogs/w5-structured-editors-img/st-2.png" alt="syntax-tree-after" height="400">
+<img src="w5-structured-editors-img/st-2.png" alt="syntax-tree-after" height="400">
 
 However, notice that the blue part is actually the same (sub-)tree! So we could have _directly_ edited the tree by adding some nodes and moving the whole subtree to another place! This is what structured editing, sometimes called projectional editing, aims to offer.
 
@@ -35,7 +35,7 @@ The first advances in structured editing started in the 1980s [1]. Researchers w
 
 The first structured editors were menu-based, where users had to select from a list of code constructs to be inserted into the code. The perhaps most well-known menu-based editor today and possibly the most famous structured-editor overall is Scratch [2]. It looks like this:
 
-<img src="/assets/teaching/ucpi2025-blogs/w5-structured-editors-img/scratch.png" alt="Scratch snippet" height="300">
+<img src="w5-structured-editors-img/scratch.png" alt="Scratch snippet" height="300">
 
 The syntax tree nodes are split into text fields (for literals) and Lego-like pieces (for constructs) that can be dragged and dropped around and snap together, guiding the user interactively.
 
@@ -53,13 +53,13 @@ But most of the time, programmers already have a programming language they want 
 
 Just like regular code editors, Sandblocks allows opening, editing and saving text files. However, when editing, the editor supports both textual input, as well as moving (and deleting) whole tree nodes. Pretty cool!
 
-<img src="/assets/teaching/ucpi2025-blogs/w5-structured-editors-img/sb-1.gif" alt="SB-Move" height="600">
+<img src="w5-structured-editors-img/sb-1.gif" alt="SB-Move" height="600">
 
 The editor features a "block cursor" which, like the text cursor, can be moved with arrow keys and can copy, cut and paste whole blocks (nodes).
 
 When inserting text, the partial parser informs the editor which structures are permitted, and then shows a popup to the user and creates a new node once it is clear which syntax construct is inserted.
 
-<img src="/assets/teaching/ucpi2025-blogs/w5-structured-editors-img/sb-2.gif" alt="SB" height="180">
+<img src="w5-structured-editors-img/sb-2.gif" alt="SB" height="180">
 
 Sandblocks is still being developed and a user-study suggests some design decisions (e.g. cursor heuristics) that could be revisited. Nevertheless, it allows a glimpse into how practical text-based structured editors could one day look like.
 
@@ -71,7 +71,7 @@ One example any programmer surely knows are small buttons next to the text field
 
 Another example is the feature present in many IDEs such as JetBrains' IntelliJ IDEA of refactoring out a term into a new variable as shown below. The user selects a code expression (effectively a syntax tree node), presses a shortcut and the editor cuts the code and places it in a new variable assignment template above the current one line. The cursor is moved to the variable name. The user enters characters that are synchronously inserted as the new variable's name and in the original place of the expression.
 
-<img src="/assets/teaching/ucpi2025-blogs/w5-structured-editors-img/intelliJ-var-replace.gif" alt="IntelliJ-variable" height="180">
+<img src="w5-structured-editors-img/intelliJ-var-replace.gif" alt="IntelliJ-variable" height="180">
 
 This shows how being aware of syntax supercharges a code editor or IDE and makes the programming experience much more efficient.
 

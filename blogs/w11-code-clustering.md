@@ -14,7 +14,7 @@ Beyond purely code-based approaches, CPVis [5] integrates multimodal learning an
 
 **VizProg:**
 
-<img src="/assets/teaching/ucpi2025-blogs/VizProg.jpg" alt="User Interface of VizProg[3]" height="300">
+<img src="VizProg.jpg" alt="User Interface of VizProg[3]" height="300">
 
 There are several challenges when thinking about a system which lets instructors understand and observe students' progress at scale. One difficulty is understanding student's progress at different granularity, such as figuring out if a whole class is struggling with a certain concept, or even noticing that an individual is having difficulties with another topic. Tied to this, is the challenge to validate the progress of students at scale. Often in practice, instructors are often only able to tell whether students managed to solve a specific problem or not. They do not notice when students found a solution, but actually struggled a lot to reach it. while it is good that they did find it in the end, their way of problem solving might still have room for improvement, or they may have only found the solution through countless trial and error without fully understanding why it worked in the end. Last but not least, it is important that instructors are able to give scalable but tailored feedback to students. 
 

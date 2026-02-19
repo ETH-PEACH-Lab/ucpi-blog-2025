@@ -17,7 +17,7 @@ In practice, many developers find there is a steep trade off between power, effo
 
 ### The reCode Approach
 
-<img src="/assets/teaching/ucpi2025-blogs/img/Screenshot%202025-10-23%20082711.png" alt="overview" height="200">
+<img src="img/Screenshot%202025-10-23%20082711.png" alt="overview" height="200">
 
 The reCode tool reframes this problem by combining the familiar find and replace workflow with programming by example. Instead of forcing you to write scripts or elaborate regular expressions, reCode watches how you edit a few instances of the change you want to make and then tries to infer a general transformation that applies to the rest of the codebase.
 
