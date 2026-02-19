@@ -13,7 +13,7 @@ To address this problem, one would need to evaluate LLMs. However, evaluating la
 Released in 2023, ChainForge is an open-source visual toolkit designed to make prompt evaluation accessible for everyone. Instead of writing code to test prompts, users build visual pipelines by connecting nodes that represent different input types, multiple models and processor nodes. This allows users to systematically evaluate their hypotheses based on individual criteria [2]. 
 Figure 1 shows an example of a pipeline that evaluates LLM performance on basic math problems across different models. 
 
-<img src="/assets/teaching/ucpi2025-blogs/w5_chain.png" alt="Ground truth evaluation for math problems" height="300">
+<img src="w5_chain.png" alt="Ground truth evaluation for math problems" height="300">
 
 <p align="center"><em>Figure 1: Ground truth evaluation for math problems</em></p>
 
@@ -35,7 +35,7 @@ Other tools address specific evaluation aspects. ChatEval uses LLMs to evaluate 
 
 While ChainForge was designed for systematic prompt testing [2], users have discovered creative applications that extend beyond its original purpose. One interesting example is StarCharm, an LLM-powered mod creator for the farming game Stardew Valley. Traditionally modders write character dialogue, schedules and behaviours manually, which is a time-consuming process. StarCharm makes this process more accessible by letting players describe their desired character in natural language and then the system automatically creates a complete playable NPC mod [5].
 
-<img src="/assets/teaching/ucpi2025-blogs/w5_chain2.png" alt="System architecture of the StarCharM tool" height="300">
+<img src="w5_chain2.png" alt="System architecture of the StarCharM tool" height="300">
 
 <p align="center"><em>Figure 2: System architecture of the StarCharM tool</em></p>
 
