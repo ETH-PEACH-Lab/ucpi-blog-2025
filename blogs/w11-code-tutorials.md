@@ -1,4 +1,4 @@
-# Learning to Code with AI: Helpful Tool or Illusion of Understanding?
+## Learning to Code with AI: Helpful Tool or Illusion of Understanding?
 
 If you have taken a programming course recently, chances are that you have used an AI tool to generate or explain code. Tools such as ChatGPT are increasingly integrated into how students learn, debug, and experiment. For many students (myself included), AI can reduce frustration and make it easier to move forward when stuck.
 
@@ -6,7 +6,7 @@ At the same time, I have noticed an uncomfortable pattern. There are moments whe
 
 Recent research suggests that this tension is not just anecdotal but reflects deeper design challenges in how tutorials, notebooks, and AI systems support learning.
 
-## Why Traditional Tutorials Often Miss Where Students Struggle
+### Why Traditional Tutorials Often Miss Where Students Struggle
 
 A common assumption about programming tutorials is that if instructions are clear, learning will follow. However, tutorials are typically static documents. Once published, they cannot observe how students interact with them or where confusion occurs.
 
@@ -16,7 +16,7 @@ One key issue highlighted in this work is the “expert blind spot,” where ins
 
 This problem is not new. Educational research has long emphasized that understanding how learners actually interact with instructional material is essential for improving it. Yet in programming, we often treat tutorials as finished products rather than evolving systems shaped by user behavior.
 
-## AI-Generated Code and the Illusion of Learning
+### AI-Generated Code and the Illusion of Learning
 
 While Porta focuses on improving tutorials from the outside, recent research has examined how learners engage with AI-generated code itself. Kazemitabaar et al. investigate how students interact with solutions produced by large language models and introduce the concept of the “illusion of learning” [2].
 
@@ -28,7 +28,7 @@ One particularly effective technique guided learners step by step through the re
 
 The findings show that students’ perceived understanding after using AI does not always align with their actual performance on subsequent tasks without AI assistance [2]. This mismatch suggests that ease of use can sometimes mask shallow engagement.
 
-## Active Engagement Has Always Mattered
+### Active Engagement Has Always Mattered
 
 Concerns about passive learning did not start with AI. In computing education research, active engagement has long been associated with better learning outcomes. The ICAP framework, for example, distinguishes between passive, active, constructive, and interactive engagement, arguing that deeper forms of engagement lead to stronger learning gains [3].
 
@@ -38,7 +38,7 @@ Tools such as Python Tutor make program execution visible by showing changes in 
 
 What is interesting about recent AI research is that it does not reject these principles. Instead, it adapts them. Rather than asking whether students should use AI, it asks how interaction with AI can be structured so that it promotes analysis, explanation, and prediction instead of simple acceptance of generated solutions.
 
-## Rethinking Tutorials and AI as Learning Interfaces
+### Rethinking Tutorials and AI as Learning Interfaces
 
 Taken together, the Porta system and the cognitive engagement techniques suggest a broader shift in how we think about programming education tools.
 
@@ -48,7 +48,7 @@ This suggests that tutorials and AI systems should be treated not merely as cont
 
 For students, this also highlights a personal responsibility. The way AI is used matters. Reading and executing code is not the same as reasoning through it. Deliberate engagement, even when not strictly required, may be necessary to convert exposure into durable knowledge.
 
-## Looking Ahead
+### Looking Ahead
 
 AI-assisted programming is unlikely to disappear. If anything, it will become more integrated into educational platforms and development environments. The key question is how these tools can be designed to support learning rather than simply accelerate output.
 
@@ -56,7 +56,7 @@ Research points toward hybrid approaches in which AI systems incorporate structu
 
 For students like myself, this means being more reflective about how I interact with generated code. Efficiency is valuable, especially under time pressure. But genuine understanding requires effort. The goal should not only be to produce working programs, but to build the ability to reason about them independently.
 
-## References
+### References
 
 [1] Mysore, A., & Guo, P. J. (2018). *Porta: Profiling software tutorials using operating-system-wide activity tracing*. Proceedings of the ACM Symposium on User Interface Software and Technology.
 
